@@ -16,7 +16,7 @@ import dot from ".././assets/dot.png";
 export function NotificationPage(){
     const { isOpen, onOpen, onClose } = useDisclosure()
 
-    return <div className='flex flex-wrap justify-center gap-20 mt-[180px]'>
+    return <div className='flex flex-wrap justify-center gap-20 mt-[40px]'>
     <img className='size-12' src={user}/>
     <button onClick={onOpen}>
         <img className='size-14 flex items-center' src={notification}/>
