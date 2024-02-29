@@ -54,7 +54,7 @@ export function AddEvent() {
     };
 
   return (
-    <div className="bg-background h-screen w-full pt-4">
+    <div className="bg-background w-full pt-4">
         <div className="flex flex-wrap justify-between">
         <div className="w-4/6">
           <img
