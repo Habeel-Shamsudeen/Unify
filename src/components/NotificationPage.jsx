@@ -12,12 +12,14 @@ import { useDisclosure } from '@chakra-ui/react';
 import notification from ".././assets/Notification.png";
 import user from ".././assets/user.png";
 import dot from ".././assets/dot.png";
+import { useNavigate } from 'react-router';
 
 export function NotificationPage(){
-    const { isOpen, onOpen, onClose } = useDisclosure()
+    const { isOpen, onOpen, onClose } = useDisclosure();
+    const navigate = useNavigate();
 
     return <div className='flex flex-wrap justify-center gap-20 mt-[40px]'>
-    <img className='size-12' src={user}/>
+    <img className='size-12' src={user} onClick={()=>navigate('/profile')}/>
     <button onClick={onOpen}>
         <img className='size-14 flex items-center' src={notification}/>
     </button>

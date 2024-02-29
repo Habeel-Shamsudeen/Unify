@@ -17,7 +17,7 @@ export function UserChat({label}){
     const { isOpen, onOpen, onClose } = useDisclosure()
 
     return <div className= "p-3 flex flex-wrap ml-2 mt-2">
-        <img className="" src={user}/>
+        <img className="size-10" src={user}/>
         <button className="text-text text-2xl font-light ml-4" onClick={onOpen}>
             {label}
         </button>
