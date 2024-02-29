@@ -3,7 +3,7 @@ import { Stack, Image, Heading, Text, Button } from "@chakra-ui/react";
 
 export function EventCard({ title, description, URL, date, imageURL }) {
   return (
-    <div className="ml-5">
+    <div>
       <div className="w-10/12">
       <Card
         direction={{ base: "column", sm: "row" }}

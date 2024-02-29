@@ -34,7 +34,7 @@ export function ForumPage() {
 
   if (forums.length == 0) {
     return (
-      <div className="bg-primary rounded-xl p-6 w-[1000px] ml-32 overflow-y-auto h-[800px]">
+      <div className="bg-primary rounded-xl p-6 w-[1000px] ml-32 overflow-y-auto h-[640px]">
         <SearchBar
           onChange={(e) => setFilter(e.target.value)}
           filter={filter}
@@ -45,7 +45,7 @@ export function ForumPage() {
     );
   }
   return (
-    <div className="bg-primary rounded-xl p-6 w-[1000px] ml-32 overflow-y-auto h-[800px]">
+    <div className="bg-primary rounded-xl p-6 w-[1000px] ml-32 overflow-y-auto h-[640px] scrollbar-hide">
       <SearchBar
         onChange={(e) => setFilter(e.target.value)}
         onClickHandler={() => navigate("/newforum")}
