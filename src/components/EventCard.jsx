@@ -26,10 +26,10 @@ export function EventCard({ title, description, URL, date, imageURL }) {
           </CardBody>
 
           <CardFooter>
-            <Button variant="solid" colorScheme="blue">
+            <Button variant="solid" colorScheme="purple">
               Register
             </Button>
-            <Button variant="solid" colorScheme="blue" mx={"6px"}>{date}</Button>
+            <Button variant="solid" colorScheme="purple" mx={"6px"}>{date}</Button>
           </CardFooter>
         </Stack>
       </Card>
