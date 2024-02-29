@@ -22,7 +22,7 @@ import { NotificationPage } from './NotificationPage';
 export function DirectMsg(){
     const { isOpen, onOpen, onClose } = useDisclosure()
 
-    return <div className="text-4xl font-bold pt-6 mb-4 bg-secondary">
+    return <div className="text-4xl font-bold pt-6 bg-secondary">
         <img className="h-[90px] my-5 ml-7 mb-8" src={logo}/>
             <div className="flex flex-wrap mx-6 mt-8 mb-4">
                 <h1 className="text-text bg-secondary text-2xl font-medium ml-4 mt-2">
