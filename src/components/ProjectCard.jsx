@@ -4,7 +4,7 @@ import { Stack, Heading, Image, Text, Button } from "@chakra-ui/react";
 export function ProjectCard({ title, description, Skills }) {
   return (
     <div>
-      <div className="flex justify-center w-[400px] bg-white m-5 rounded-xl">
+      <div className="flex justify-center w-10/12 bg-white m-5 rounded-xl">
       <Card
         direction={{ base: "column", sm: "row" }}
         overflow="hidden"
