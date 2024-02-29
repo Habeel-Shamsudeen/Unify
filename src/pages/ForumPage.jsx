@@ -40,7 +40,7 @@ export function ForumPage() {
           filter={filter}
           onClickHandler={() => navigate("/newforum")}
         />
-        <div className="py-3 text-xl text-white">Loading...</div>
+        <div className="py-3 text-xl text-white">No active forums</div>
       </div>
     );
   }

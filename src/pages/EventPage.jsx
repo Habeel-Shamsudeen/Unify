@@ -40,7 +40,7 @@ export function EventPage() {
           filter={filter}
           onClickHandler={()=>navigate('/addevent')}
         />
-        <div className="py-3 text-xl text-white">Loading...</div>
+        <div className="py-3 text-xl text-white">No upcoming events</div>
       </div>
     );
   }

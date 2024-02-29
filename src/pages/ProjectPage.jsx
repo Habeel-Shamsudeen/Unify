@@ -35,7 +35,7 @@ export function ProjectPage() {
   if(projects.length==0){
     return <div className="bg-primary rounded-xl p-6 w-[1000px] h-[640px] ml-32">
       <SearchBar onChange={(e)=>setFilter(e.target.value)} filter={filter} onClickHandler={()=>navigate("/addproject")}/>
-      <div className="py-3 text-xl text-white">Loading...</div>
+      <div className="py-3 text-xl text-white">No projects listed</div>
     </div>
   }
 
